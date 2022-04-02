@@ -1,0 +1,110 @@
+h1{
+    color:greenyellow; 
+    background-color:#808080;
+    
+ }
+ 
+
+ .menu{
+    padding: 20px;
+ }
+
+.menu a{
+    margin-left: 20px;
+}
+.header *{
+    margin:30px ;
+    border: dashed;
+}
+ 
+a:link{
+    color: forestgreen;
+}
+
+a:visited{
+   color: red; 
+}
+
+ .header{
+     border :dashed;
+     background-color:aqua;
+     display :flex;
+     justify-content: center;
+
+ }
+
+ .text{
+    background-color:peachpuff;
+    border :cadetblue;
+   justify-content: center;
+    display :flex;
+
+}
+
+.text2{ 
+   justify-content: center;
+    display :flex;
+}
+
+.text3{ 
+    justify-content: center;
+     display :flex;
+ }
+
+ .text5{ 
+    justify-content: center;
+     display :flex;
+ }
+
+ .text4{ 
+    justify-content: center;
+     display :flex;
+ }
+
+ .grid{
+     display:flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     
+ }
+ .item{
+    border: dimgray;
+ }
+
+ .footer{
+     display: flex;
+     justify-content:center;
+     background-color: #ffffff;
+ }
+
+ 
+
+ p,h3{
+     text-align: center;
+ }
+
+ body{
+    background-color:"black";
+ }
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:20%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
+
+
+ 
